@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "I am learning react and backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "react",
+    "backend"
+  ],
+  "author": "Atul Yadav",
+  "license": "ISC"
+}
