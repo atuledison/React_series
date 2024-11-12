@@ -1,17 +1,10 @@
 
-import { useState } from 'react'
-
-import './App.css'
-
 function App() {
   
 
   return (
-    <>
-    
-    <h1>My name is Atul Yadav</h1>
-
-    </>
+   
+    <h1>My name is Atul Yadav || I am learning react</h1>
   )
 }
 
