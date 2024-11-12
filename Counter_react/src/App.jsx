@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Card from './Components/Card'
 
 function App() {
 
@@ -26,13 +27,15 @@ function App() {
 
   return (
     <>
-      <h1>This is a Counter</h1>
+      <h1 className='bg-black rounded-xl p-3 mb-2'>This is a Counter</h1>
       <h2>h2 heading</h2>
 
       <h3>The count is : {counter}</h3>
 
       <button onClick={AddNum}>Add count</button>
       <button onClick={RemoveNum}>Remove count</button>
+
+      <Card/>
     </>
   )
 }
